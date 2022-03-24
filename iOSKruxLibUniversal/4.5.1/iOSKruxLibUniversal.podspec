@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://konsole.zendesk.com/hc/article_attachments/360097785453/iOSKruxLibUniversal.framework_4.5.1.zip" }
   s.vendored_frameworks = "iOSKruxLibUniversal.framework"
 
-  # s.swift_version = "5.2"
   s.ios.deployment_target  = '12.0'
   s.ios.frameworks = 'AdSupport', 'AppTrackingTransparency'
   s.framework = 'SystemConfiguration' 
