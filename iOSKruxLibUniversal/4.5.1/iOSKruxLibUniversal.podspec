@@ -28,12 +28,4 @@ Pod::Spec.new do |s|
   	'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' 
   }
 
-  #  s.pod_target_xcconfig = {
-  # 	'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  # }
-
-  # s.ios.xcconfig = {
-  #    'HEADER_SEARCH_PATHS' => '"\$(PODS_ROOT)/iOSKruxLibUniversal/iOSKruxLibUniversal.framework"'
-  #  }
-
 end
